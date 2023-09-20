@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/lab_2_2.css"></styles>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts/lab_2.js" async></script>
+        <title>Lab 2.2</title>
+
+        <style>
+
+            .form-group {
+                padding-top: 5px;
+                padding-bottom: 15px;
+            }
+            
+            .form-med {
+                width: 10%;
+                float: left;
+                clear: left;
+                margin-right: 1%;
+                padding-top: 7px;
+                text-align: right;
+                font-size: 22px;
+            }
+
+            .form-control {
+                float: left;
+                clear: right;
+                font-size: 22px;
+                display: block;
+                margin-bottom: 10px;
+                line-height: 1.5;
+                color: #333333;
+                border: 2px solid #CCC;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <div style="font-size: 26px; margin-left: 10%;">
+                    My Webpage
+                </div>
+
+                <div>
+                    <div class="link-container">
+                        <a href="">Link 1</a>
+                        <a href="">Link 2</a>
+                        <a href="">Link 3</a>
+                        <a href="">Link 4</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div style="color:blue; font-size: 20px; margin: 20px 0px 20px 0px;">
+                    This is my first webpage! It contains links a form, & buttons.
+                </div>
+                <div>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-med" for="input1">Input 1</label>
+                            <input class="form-control" name="input1", id="input1">
+                        </div>
+                        <div>
+                            <label class="form-med" for="input2">Input 2</label>
+                            <input class="form-control" name="input2", id="input2">
+                        </div>
+                        <div>
+                            <label class="form-med" for="input3">Input 3</label>
+                            <input class="form-control" name="input3", id="input3">
+                        </div>
+                        <div class="button-container">
+                            <div class="button-config">
+                                <div class="edit_btn" id="submit">Submit</div>
+                            </div>
+                            <div class="button-config">
+                                <div class="edit_btn" id="clear">Clear</div>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
